@@ -1,0 +1,8 @@
+<div>
+  <app-header/>
+
+  <div class="main">
+    <app-login-form *ngIf="authenticated == false" (onLoginEvent)="onSignedIn()"/>
+    <app-content-display *ngIf="authenticated == true"/>
+  </div>
+</div>

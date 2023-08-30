@@ -1,0 +1,10 @@
+<p>
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>{{title}}</mat-card-title>
+      <mat-card-subtitle><p *ngFor="let msg of messages">{{msg}}</p></mat-card-subtitle>
+    </mat-card-header>
+  </mat-card>
+</p>
+
+<app-content-input (onSubmitEvent)="onMessageCreated($event)"/>

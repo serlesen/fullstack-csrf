@@ -1,0 +1,15 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.login-form {
+  min-width: 50px;
+  max-width: 300px;
+  width: 100%;
+}
+
+.login-full-width {
+  width: 100%;
+}

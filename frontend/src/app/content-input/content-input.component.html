@@ -1,0 +1,7 @@
+<form #messageForm="ngForm" (ngSubmit)="onSubmit()">
+  <mat-form-field>
+    <mat-label>Add message</mat-label>
+    <input name="message" ngModel matInput>
+  </mat-form-field>
+  <button type="submit" mat-raised-button color="primary">Add</button>
+</form>

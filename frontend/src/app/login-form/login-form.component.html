@@ -1,0 +1,13 @@
+<form #loginForm="ngForm" class="login-form" (ngSubmit)="onSubmit()">
+  <mat-form-field class="login-full-width">
+    <mat-label>Login</mat-label>
+    <input name="login" ngModel matInput>
+  </mat-form-field>
+
+  <mat-form-field class="login-full-width">
+    <mat-label>Password</mat-label>
+    <input name="password" type="password" ngModel matInput>
+  </mat-form-field>
+
+  <button type="submit" mat-raised-button color="primary">Login</button>
+</form>
